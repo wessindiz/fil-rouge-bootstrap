@@ -1,0 +1,125 @@
+/* FEUILLE DE STYLE PAGE D'ACCUEIL */
+
+main {
+    margin-top: 6em;
+    min-height: 90vh;
+    background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
+}
+ 
+h1 {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(85, 159, 243);
+}
+
+p {
+    color: rgb(230, 174, 34);
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 1em !important;
+
+}
+
+.section1{
+    padding:7%;
+}
+
+.section2 {
+    min-height:35vh;
+    background: url("../images/accueil/ingeson.jpg") no-repeat center/ cover;
+}
+
+.section3 {
+    text-align: center;
+    padding: 7%;
+}
+
+.section4 {
+    height: 25vh;
+    display: flex;
+}
+
+.section4 .micro {
+    background: url("../images/accueil/rode.jpg") no-repeat center/ cover;
+}
+
+.section4 .photo{
+    background: url("../images/accueil/canon.jpg") no-repeat center/ cover;
+}
+
+.section5 {
+    text-align: center;
+    padding: 7%;
+}
+
+.carousel-item{
+    height: 55vh;
+}
+
+.section6{
+    margin-bottom: 3em;
+}
+
+/* Nouvelles règles pour le format tablette (entre 768px et 991.98px)*/ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    main {
+        min-height: 90vh;
+    }
+    
+    .section1{
+        padding:7%;
+    }
+    
+    .section4 {
+        height: 35vh;
+    }
+    
+    .section5 {
+        padding: 7%;
+    }
+    
+    .carousel-item{
+        height: 65vh;
+    }
+    
+    .section6{
+        margin-bottom: 5em;
+    }
+
+    p{
+        font-size: 2em !important;
+    }
+}
+
+/* Nouvelles règles pour le format desktop (991.99px)*/ 
+@media (min-width: 991.99px) {
+    main {
+        min-height: 90vh;
+    }
+    
+    .section1{
+        padding: 8%;
+    }
+
+    .section2 {
+        min-height:45vh;
+    }
+    
+    .section4 {
+        height: 30vh;
+    }
+    
+    .section5 {
+        padding: 8%;
+    }
+    
+    .carousel-item{
+        height: 70vh;
+    }
+    
+    p{
+        font-size: 3em !important;
+    }
+}

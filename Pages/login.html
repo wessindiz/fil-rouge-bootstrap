@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../CSS/style-login.css">
+      <!--le lien du document global css-->
+      <link rel="stylesheet" href="../CSS/style-menu.css">
+      <!--le lien du document menu css-->
+      <script src="https://kit.fontawesome.com/d6af0024d7.js" crossorigin="anonymous"></script>
+      <!--lien font awesome icons-->
+      <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+      <title>"Connexion/24 Carats Studio"</title>
+   </head>
+    <body class="linear-gradient">
+        <header>
+           <a href="../index.html"><img src="../images/menu/ logo24kor.png" alt="24K" class="logo"></a>
+           <nav class="navmenu">
+              <ul class="main-menu">
+                 <li><a href="../index.html">Accueil</a></li>
+                 <li><a href="studios.html">Nos studios</a></li> 
+                 <li><a href="#">Nos tarifs</a></li> 
+                 <li><a href="#">Le label</a></li> 
+                 <li><a href="#">Contacts</a></li>
+                 <li><a href="login.html">Se connecter <i class="fas fa-sign-in-alt"></i></a></li>
+              </ul>
+           </nav>
+           <!--Menu Hamburger-->
+           <button id="open">
+               <a href="javascript:void(0);" class="icon" onclick="showResponsiveMenu()">
+                  <i class="fa fa-bars" id="bars"></i>
+                  <i class="fas fa-times" id="cross"></i>
+                </a>
+               <!--Liste des items du menu hamburger-->
+               <ul id="open-menu">
+                 <li><a href="../index.html" >Accueil</a></li>
+                 <li><a href="studios.html">Nos studios</a></li> 
+                 <li><a href="#">Nos tarifs</a></li> 
+                 <li><a href="#">Le label</a></li> 
+                 <li><a href="#">Contacts</a></li>
+                 <li class="last_element"><a href="#">Se connecter <i class="fas fa-sign-in-alt"></i></a></li>
+              </ul>
+           </button>
+        </header>
+        <form action="#">
+           <div class="divform">
+               <fieldset>
+                   <div class="emoji"><i class="fas fa-user-circle"></i></div>
+                   <h2>S'identifier</h2>
+                   <div class="champ">
+                     <div class="mailid"><i class="fas fa-envelope"></i> <input type="email" class="input-field" name="mail" placeholder="mail" required></div>
+                     <div class="passid"><i class="fas fa-lock"></i><input type="password" class="input-field" name="password" placeholder="mot de passe" required>
+                   </div>
+                  <div class="login">
+                     <input type="submit" value="Connexion">
+                  </div>
+                  <div class="formbottom">
+                  <span><input type="checkbox" id="rememberme" name="rememberme" value="1">
+                   <label for="rememberme">Se souvenir de moi</label></span>
+                   <a href="#">Mot de passe oublié?</a>
+                </div>   
+               </fieldset>
+           </div>
+         <hr>
+         <div class="signup">
+         <p>Pas encore de compte? <a href="signup.html">S'enregistrer ici </a></p>
+         </div>
+        </form>
+        <script src="../javascript/main.js"></script>
+    </body>
+    </html>
