@@ -9,7 +9,9 @@
 }
 
 main{
+    display: flex;
     margin: 1em 0;
+    min-height: 65vh;
 }
 
 
@@ -77,4 +79,13 @@ button{
 .signup{
     text-align: center;
     font-size: 12px !important;
+}
+
+
+
+/* Nouvelles règles pour le format tablette (entre 767px et 991.98px)*/ 
+@media (min-width: 767px) and (max-width: 991.98px) {
+    main{
+        height: 75vh;
+    }
 }
