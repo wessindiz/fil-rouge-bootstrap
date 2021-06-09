@@ -90,6 +90,7 @@ header, .container-fluid{
 
 /* Nouvelles règles pour le format tablette (entre 768px et 991.98px)*/ 
 @media (min-width: 400px) and (max-width: 991.98px) {    
+    
     .logo{
         width: 7em;
     }
@@ -108,7 +109,8 @@ header, .container-fluid{
 
 
 /* Nouvelles règles pour le format desktop (991.98px)*/ 
-@media (min-width: 991.98px) {    
+@media (min-width: 991.98px) {   
+
     .logo{
         width: 8em;
     }

@@ -1,7 +1,6 @@
 /* FEUILLE DE STYLE PAGE D'ACCUEIL */
 
 main {
-    margin-top: 5em;
     min-height: 100vh;
     background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
 }
@@ -56,7 +55,7 @@ p {
 }
 
 .carousel-item{
-    height: 55vh;
+    height: 45vh;
 }
 
 .section6{
