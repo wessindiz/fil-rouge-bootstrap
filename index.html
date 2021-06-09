@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!--lien feuille de style global CSS-->
@@ -18,14 +17,14 @@
   </head>
   <body>
       <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top p-0 navmenu">
         <div class="container-fluid">
             <a href="index.html"><img src="images/menu/ logo24kor.png" alt="24K" class="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler btnmenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
-            <ul class="navbar-nav w-75 justify-content-lg-around">
+            <ul class="navbar-nav w-75 justify-content-lg-around mentions">
               <li class="nav-item">
                 <a class="nav-link active fs-5" aria-current="page" href="#">Accueil</a>
               </li>
@@ -42,7 +41,7 @@
                 <a class="nav-link fs-5" href="#">Contacts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-5" href="#">Se connecter <i class="fas fa-sign-in-alt"></i></a>
+                <a class="nav-link fs-5" href="Pages/login.html">Se connecter <i class="fas fa-sign-in-alt"></i></a>
               </li>
             </ul>
           </div>
@@ -86,7 +85,7 @@
             <div class="carousel-item">
               <img src="images/artistes/nera.jpg" class="d-block w-100" alt="nera">
             </div>
-          </div>
+          <div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -97,6 +96,7 @@
           </button>
         </div>
     </section class="section6">
+    <footer>
      <nav class="navbar bottom navbar-dark">
         <div class="container-fluid d-flex justify-content-center p-0">
             <ul class="list-group list-group-horizontal-sm d-flex flex-row bd-highlight mb-3 w-100 justify-content-around ">
@@ -108,13 +108,14 @@
                 <li class="list-group-item sc réseau"><i class="fab fa-soundcloud"></i></li>
               </ul>
         </div>
-        <ul class="list-group list-group-flush w-100 d-flex flex-column flex-md-row justify-content-md-center">
+        <ul class="list-group list-group-flush w-100 d-flex flex-column flex-md-row justify-content-md-center ">
           <li class="list-group-item mentions">Mentions légales</li>
           <li class="list-group-item mentions">Conditions générales de vente</li>
           <li class="list-group-item mentions">Plan du site</li>
           <li class="list-group-item mentions">Recrutement</li>
         </ul>
       </nav>
+    </footer>
     <!--Script Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>

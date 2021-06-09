@@ -1,17 +1,19 @@
 /* FEUILLE DE STYLE PAGE D'ACCUEIL */
 
 main {
-    margin-top: 6em;
-    min-height: 90vh;
+    margin-top: 5em;
+    min-height: 100vh;
     background: url("../images/accueil/consolemix.jpg") no-repeat center/ cover;
 }
  
 h1 {
     text-align: center;
     font-family: 'Jura', sans-serif;
-    font-weight: bold;
-    padding-top: 30px;
-    color: rgb(85, 159, 243);
+    font-weight: bold !important;
+    padding-top: 2em !important;
+    font-size: 28px !important;
+    color: #ffffff;
+    text-shadow: 0.04em 0.05em 0.03em rgb(47, 172, 255);
 }
 
 p {
@@ -19,7 +21,6 @@ p {
     text-align: center;
     font-family: 'Jura', sans-serif;
     font-size: 1em !important;
-
 }
 
 .section1{
@@ -62,8 +63,29 @@ p {
     margin-bottom: 3em;
 }
 
-/* Nouvelles règles pour le format tablette (entre 768px et 991.98px)*/ 
-@media (min-width: 768px) and (max-width: 991.98px) {
+/*mis en forme du bouton "retour en haut"*/
+#scrollup i{
+    color: rgb(230, 174, 34);
+    font-size: 30px;
+}
+#scrollup{
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+    /* opacity: 0.8; */
+    margin-bottom: 11em;
+}
+
+/* Nouvelles règles pour le format tablette (entre 767px et 991.98px)*/ 
+@media (min-width: 767px) and (max-width: 991.98px) {
+
+    h1{
+        font-size: 70px !important;
+        padding-top: 2.3em;
+
+    }
+
+
     main {
         min-height: 90vh;
     }
@@ -72,6 +94,10 @@ p {
         padding:7%;
     }
     
+    .section2{
+        min-height: 50vh !important;
+    }
+
     .section4 {
         height: 35vh;
     }
@@ -95,6 +121,12 @@ p {
 
 /* Nouvelles règles pour le format desktop (991.99px)*/ 
 @media (min-width: 991.99px) {
+
+    h1{
+        font-size: 90px !important;
+        padding-top: 1.5em !important;
+    }
+
     main {
         min-height: 90vh;
     }
@@ -104,11 +136,11 @@ p {
     }
 
     .section2 {
-        min-height:45vh;
+        min-height: 60vh !important;
     }
     
     .section4 {
-        height: 30vh;
+        height: 40vh;
     }
     
     .section5 {
@@ -116,10 +148,42 @@ p {
     }
     
     .carousel-item{
-        height: 70vh;
+        height: 60vh;
     }
     
     p{
-        font-size: 3em !important;
+        font-size: 2.5em !important;
+    }
+}
+
+
+/* Nouvelles règles pour le format desktop (991.99px)*/ 
+@media (min-width: 1439px) {
+    main {
+        min-height: 90vh;
+    }
+    
+    .section1{
+        padding: 8%;
+    }
+
+    .section2 {
+        min-height: 85vh !important;
+    }
+    
+    .section4 {
+        height: 60vh;
+    }
+    
+    .section5 {
+        padding: 8%;
+    }
+    
+    .carousel-item{
+        height: 110vh;
+    }    
+
+    .w-50{
+        width: 50% !important;
     }
 }

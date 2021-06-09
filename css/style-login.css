@@ -1,10 +1,76 @@
+
+
+/* FEUILLE DE STYLE CSS POUR LE FORMULAIRE 'SE CONNECTER' */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+main{
+    margin: 1em 0;
+}
 
-body{
-    min-height: 100vh;
+
+.formulaire{
+    font-family: jura;
+    font-weight: bolder;
+    max-width: 45em;
+    margin: auto;
+}
+
+.divform{
+    padding: 1em 0;
+}
+
+fieldset{
+    width: 85%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 8px 0px;
+	border: 1px solid #610606;
+    background: linear-gradient( #a37cf1, #f1d77e);
+}
+.emoji{
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.emoji .fas{
+	font-size: 3em ;
+	color: rgb(0, 0, 0);
+}
+
+h2{
+	text-align: center;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: #050300fa;
+	text-shadow: 0.06em 0.06em 0.03em rgb(200, 213, 255);
+    margin-bottom: 1em !important;
+}
+
+label{
+    font-size: 12px;
+}
+
+input{
+    border: 1px solid purple !important;
+    height: 1.5em;
+}
+
+p, p a{
+font-size: 10px !important;
+font-weight: bold;
+}
+
+button{
+    font-size: 15px !important;
+    border-radius:  0.5em !important;
+    background: linear-gradient(#1e058b, #640c7a);
+}
+
+.signup{
+    text-align: center;
 }

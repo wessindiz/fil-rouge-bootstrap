@@ -13,9 +13,10 @@ body{
 }
 
 
+
 /* CSS de la barre de naviguation */
 .logo{
-    width: 6em;
+    width: 5em;
 }
 ul{
     list-style: none;
@@ -26,6 +27,14 @@ header, .container-fluid{
 .nav-link{
     font-family: jura;
     color: darkgoldenrod !important;
+}
+.btnmenu{
+    font-size: 20px !important;
+    border-radius:  0.3em !important;
+    background: linear-gradient(#e79821, #ddb035) !important;
+}
+.navmenu{
+    position: static !important;
 }
 
 
@@ -79,15 +88,38 @@ header, .container-fluid{
 
 
 
-
-
-
-
-
 /* Nouvelles règles pour le format tablette (entre 768px et 991.98px)*/ 
 @media (min-width: 400px) and (max-width: 991.98px) {    
     .logo{
         width: 7em;
     }
 
+    .réseau{
+        font-size: 1.5em !important;
+    }
+    
+    .mentions{
+        background-color: black !important;
+        color: goldenrod !important;
+        font-size: 8px !important;
+    }
+
 }
+
+
+/* Nouvelles règles pour le format desktop (991.98px)*/ 
+@media (min-width: 991.98px) {    
+    .logo{
+        width: 8em;
+    }
+
+    .réseau{
+        font-size: 1.7em !important;
+    }
+    
+    .mentions{
+        font-size: 14px !important;
+    }
+
+}
+
