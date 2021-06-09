@@ -16,7 +16,7 @@ main{
 .formulaire{
     font-family: jura;
     font-weight: bolder;
-    max-width: 45em;
+    max-width: 50em;
     margin: auto;
 }
 
@@ -45,14 +45,14 @@ fieldset{
 
 h2{
 	text-align: center;
-	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-family: jura;
 	color: #050300fa;
 	text-shadow: 0.06em 0.06em 0.03em rgb(200, 213, 255);
     margin-bottom: 1em !important;
 }
 
 label{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 input{
@@ -61,8 +61,11 @@ input{
 }
 
 p, p a{
-font-size: 10px !important;
 font-weight: bold;
+}
+
+.forgot{
+    font-size: 9px !important;
 }
 
 button{
@@ -73,4 +76,5 @@ button{
 
 .signup{
     text-align: center;
+    font-size: 12px !important;
 }
