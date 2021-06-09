@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     line-height: 1,5;
     background:linear-gradient(#1e058b, #640c7a);
@@ -90,7 +91,7 @@ header, .container-fluid{
 
 /* Nouvelles règles pour le format tablette (entre 768px et 991.98px)*/ 
 @media (min-width: 400px) and (max-width: 991.98px) {    
-    
+
     .logo{
         width: 7em;
     }

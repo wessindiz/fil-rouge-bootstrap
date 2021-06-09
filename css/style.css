@@ -156,7 +156,7 @@ p {
 }
 
 
-/* Nouvelles règles pour le format desktop (991.99px)*/ 
+/* Nouvelles règles pour le format desktop (1439)*/ 
 @media (min-width: 1439px) {
     main {
         min-height: 90vh;
