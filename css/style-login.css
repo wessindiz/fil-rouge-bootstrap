@@ -88,4 +88,62 @@ button{
     main{
         height: 75vh;
     }
+    .emoji{
+        margin-bottom: 1em;
+    }
+    
+    .emoji .fas{
+        font-size: 5em ;
+    }
+
+    label{
+        font-size: 18px;
+    }
+    input{
+        height: 2em;
+    }
+    .ipt{
+        margin-top: 1.5em !important;
+    }
+    .forgot{
+        font-size: 12px !important;
+    }
+
+    .signup{
+        text-align: center;
+        font-size: 14px !important;
+    }
+    
+}
+
+/* Nouvelles règles pour le format desktop (991.99px)*/ 
+@media (min-width: 991.99px) {
+    main{
+        height: 80vh;
+    }
+    .emoji{
+        margin-bottom: 1em;
+    }
+    
+    .emoji .fas{
+        font-size: 5em ;
+    }
+
+    label{
+        font-size: 20px;
+    }
+    input{
+        height: 2em;
+    }
+    .ipt{
+        margin-top: 1.5em !important;
+    }
+    .forgot{
+        font-size: 14px !important;
+    }
+
+    .signup{
+        text-align: center;
+        font-size: 16px !important;
+    }
 }
