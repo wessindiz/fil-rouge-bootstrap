@@ -80,7 +80,13 @@ button{
     text-align: center;
     font-size: 12px !important;
 }
-
+.error{
+    color: rgb(255, 9, 9);
+    font-size: 14px;
+}
+.red{
+    border: red 1.5px solid !important;
+}
 
 
 /* Nouvelles règles pour le format tablette (entre 767px et 991.98px)*/ 
@@ -103,7 +109,7 @@ button{
         height: 2em;
     }
     .ipt{
-        margin-top: 1.5em !important;
+        margin-top: 1em !important;
     }
     .forgot{
         font-size: 12px !important;
@@ -112,6 +118,9 @@ button{
     .signup{
         text-align: center;
         font-size: 14px !important;
+    }
+    .error{
+        font-size: 14px;
     }
     
 }
@@ -136,7 +145,7 @@ button{
         height: 2em;
     }
     .ipt{
-        margin-top: 1.5em !important;
+        margin-top: 1em !important;
     }
     .forgot{
         font-size: 14px !important;
@@ -145,5 +154,8 @@ button{
     .signup{
         text-align: center;
         font-size: 16px !important;
+    }
+    .error{
+        font-size: 14px;
     }
 }
